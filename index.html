@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New York : SuperCity</title>
+    <style>
+        *{padding:0;
+            margin:0;
+            box-sizing:border-box;
+             }
+             html,body{
+                width:100%;
+                height:100%;
+                 background-color: rgb(140, 207, 238);
+             }
+              
+             
+            /* it is navbar  */
+             .navbar{
+        display: flex;
+        width:100%;
+        height: 50px;
+        background-color: rgb(32, 114, 228);
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .navlogo{
+        margin-left: 20px;
+        width:40px;
+        height:40px;
+        border-radius: 50%;
+    }
+   
+    .list{
+        display: flex;
+        margin-right: 100px;
+        gap: 150px;
+        font-size: 18px;
+    }
+    li{
+        list-style-type: none;
+       
+    }
+     li:hover{
+        border: 2px solid black;
+        border-radius: 4px;
+         padding: 0 8px 0 8px;
+         cursor: pointer;
+    }
+    
+
+
+        .container{
+            height:100%;
+            width:100%;
+           
+          
+        }
+        .heading{
+            height: 50px;
+            display:flex;
+            background-color:rgb(77, 183, 245);
+            flex-direction:column;
+            justify-content: center;
+            align-items: center;
+             font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 28px;
+        font-weight: 500;
+     }
+     .heading#belowheading
+     {display:flex;
+        justify-content:center;
+        width:400px;
+        height:36px;
+        margin-left:550px;
+        padding-left:-50px;
+        margin-top:10px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        background-color:rgb(77, 183, 245);
+        border-radius: 22px;
+        box-shadow: 0 0 10px gray;
+     }
+     img.topimage{
+        width:500px;
+        height:300px;
+        margin-top:20px;
+        border-radius: 10px;
+        box-shadow: 0 0 20px gray;
+     }
+     .about{
+        display:flex;
+        justify-content: space-around;
+       
+        margin-top: 20px;
+        align-items:center;
+        padding: 20px;
+     }
+     .about p{
+        width:700px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+        font-weight: 515;
+        margin-top: 20px;
+     }
+     .breifs{
+        width:100%;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+    
+     }
+     .images{
+        width:270px;
+        height: 150px;
+        border-radius: 15px;
+        box-shadow: 0 0 10px gray;
+     }
+     .image{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        max-width: 270px;
+     }
+    </style>
+</head>
+<body>
+
+     <div class="navbar">
+        <div class="navlogo">
+        <img class="navlogo" src="/images/logo.jpg" alt="ny-logo">
+        </div>
+        
+        
+       
+        <ul class="list">
+            <li>Home</li>
+            <li>Blog</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Settings</li>
+        </ul>
+        
+        
+    </div>
+
+
+
+    
+    <div class="container">
+          <div class="heading"> 
+            <p>
+            Welcome to New York 
+          </p>
+        </div>
+        <div class="heading" id="belowheading">
+            Where the Superheroes Belong
+        </div>
+        <div class="about">
+            <img src="./images/new-york.webp" alt="New York" class="topimage"></img>
+            <p>New York is the most populous city in the United States. With an estimated 2019 population of 8,336,817 distributed over about 302.6 square miles (784 km2), New York is also the most densely populated major city in the United States. It is also one of the world's major global cities and exerts a significant impact upon commerce, finance, media, art, fashion, research, technology, education, and entertainment. New York City has been described as the cultural, financial, and media capital of the world, significantly influencing commerce, entertainment, research, technology, education, politics, tourism, art, fashion, and sports. It is one of the world's major commercial centers and its fast pace has inspired the term New York minute.</p>
+        </div>
+        <div class="breifs">
+            <div class="image">
+            <img src="./images/Statue-of-Liberty-New-York.webp" alt="statue of liberty" class="images"></img>
+            <p>Statue of Liberty: The Statue of Liberty is a colossal neoclassical sculpture on Liberty Island in New York Harbor in New York City, in the United States. The copper statue, a gift from the people of France to the people of the United States</p>
+           
+        </div>
+            <div class="image">
+            <img src="./images/spiderman-ny.jpg" alt="spiderman" class="images"></img>
+            <p>New York has Spider-Man, a superhero who protects the city and its people. He uses his powers to fight criminals and keep everyone safe. 🕷️🕸️</p>
+           </div>
+            <div class="image">
+            <img src="./images/wrestlemania-29.avif" alt="WrestleMania 29" class="images"></img>
+            <p>WrestleMania 29: WrestleMania 29 was a professional wrestling event produced by WWE. It took place on April 1, 2013, at the Madison Square Garden in New York City.</p>
+            </div>
+            <div class="image">
+            <img src="./images/New_york_times_square.jpg" alt="times square" class="images"></img>
+            <p>Times Square: Times Square is a major commercial intersection and tourist destination in Midtown Manhattan in New York City. It is known for its bright lights, billboards, and Broadway theaters.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
